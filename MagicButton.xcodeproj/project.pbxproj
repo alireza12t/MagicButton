@@ -10,6 +10,12 @@
 		F5E85E2224D1A03D000B15FE /* MagicButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E85E1824D1A03C000B15FE /* MagicButton.framework */; };
 		F5E85E2724D1A03D000B15FE /* MagicButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E85E2624D1A03D000B15FE /* MagicButtonTests.swift */; };
 		F5E85E2924D1A03D000B15FE /* MagicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E85E1B24D1A03C000B15FE /* MagicButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5E85E3924D1A0AD000B15FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E85E3824D1A0AD000B15FE /* AppDelegate.swift */; };
+		F5E85E3B24D1A0AD000B15FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E85E3A24D1A0AD000B15FE /* SceneDelegate.swift */; };
+		F5E85E3D24D1A0AD000B15FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E85E3C24D1A0AD000B15FE /* ViewController.swift */; };
+		F5E85E4024D1A0AD000B15FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E85E3E24D1A0AD000B15FE /* Main.storyboard */; };
+		F5E85E4224D1A0AF000B15FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E85E4124D1A0AF000B15FE /* Assets.xcassets */; };
+		F5E85E4524D1A0AF000B15FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E85E4324D1A0AF000B15FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		F5E85E2124D1A03D000B15FE /* MagicButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E85E2624D1A03D000B15FE /* MagicButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicButtonTests.swift; sourceTree = "<group>"; };
 		F5E85E2824D1A03D000B15FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E85E3624D1A0AD000B15FE /* MagicButtonExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicButtonExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E85E3824D1A0AD000B15FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E85E3A24D1A0AD000B15FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5E85E3C24D1A0AD000B15FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E85E3F24D1A0AD000B15FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E85E4124D1A0AF000B15FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E85E4424D1A0AF000B15FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E85E4624D1A0AF000B15FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5E85E3324D1A0AD000B15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				F5E85E1A24D1A03C000B15FE /* MagicButton */,
 				F5E85E2524D1A03D000B15FE /* MagicButtonTests */,
+				F5E85E3724D1A0AD000B15FE /* MagicButtonExamples */,
 				F5E85E1924D1A03C000B15FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				F5E85E1824D1A03C000B15FE /* MagicButton.framework */,
 				F5E85E2124D1A03D000B15FE /* MagicButtonTests.xctest */,
+				F5E85E3624D1A0AD000B15FE /* MagicButtonExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,20 @@
 				F5E85E2824D1A03D000B15FE /* Info.plist */,
 			);
 			path = MagicButtonTests;
+			sourceTree = "<group>";
+		};
+		F5E85E3724D1A0AD000B15FE /* MagicButtonExamples */ = {
+			isa = PBXGroup;
+			children = (
+				F5E85E3824D1A0AD000B15FE /* AppDelegate.swift */,
+				F5E85E3A24D1A0AD000B15FE /* SceneDelegate.swift */,
+				F5E85E3C24D1A0AD000B15FE /* ViewController.swift */,
+				F5E85E3E24D1A0AD000B15FE /* Main.storyboard */,
+				F5E85E4124D1A0AF000B15FE /* Assets.xcassets */,
+				F5E85E4324D1A0AF000B15FE /* LaunchScreen.storyboard */,
+				F5E85E4624D1A0AF000B15FE /* Info.plist */,
+			);
+			path = MagicButtonExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = F5E85E2124D1A03D000B15FE /* MagicButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F5E85E3524D1A0AD000B15FE /* MagicButtonExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E85E4724D1A0AF000B15FE /* Build configuration list for PBXNativeTarget "MagicButtonExamples" */;
+			buildPhases = (
+				F5E85E3224D1A0AD000B15FE /* Sources */,
+				F5E85E3324D1A0AD000B15FE /* Frameworks */,
+				F5E85E3424D1A0AD000B15FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicButtonExamples;
+			productName = MagicButtonExamples;
+			productReference = F5E85E3624D1A0AD000B15FE /* MagicButtonExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					F5E85E2024D1A03D000B15FE = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F5E85E3524D1A0AD000B15FE = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				F5E85E1724D1A03C000B15FE /* MagicButton */,
 				F5E85E2024D1A03D000B15FE /* MagicButtonTests */,
+				F5E85E3524D1A0AD000B15FE /* MagicButtonExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E85E3424D1A0AD000B15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E85E4524D1A0AF000B15FE /* LaunchScreen.storyboard in Resources */,
+				F5E85E4224D1A0AF000B15FE /* Assets.xcassets in Resources */,
+				F5E85E4024D1A0AD000B15FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5E85E3224D1A0AD000B15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E85E3D24D1A0AD000B15FE /* ViewController.swift in Sources */,
+				F5E85E3924D1A0AD000B15FE /* AppDelegate.swift in Sources */,
+				F5E85E3B24D1A0AD000B15FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +292,25 @@
 			targetProxy = F5E85E2324D1A03D000B15FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E85E3E24D1A0AD000B15FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E85E3F24D1A0AD000B15FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E85E4324D1A0AF000B15FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E85E4424D1A0AF000B15FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F5E85E2A24D1A03D000B15FE /* Debug */ = {
@@ -422,6 +519,44 @@
 			};
 			name = Release;
 		};
+		F5E85E4824D1A0AF000B15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJLMAG95WU;
+				INFOPLIST_FILE = MagicButtonExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.toghyiani.alireza.MagicButtonExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E85E4924D1A0AF000B15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJLMAG95WU;
+				INFOPLIST_FILE = MagicButtonExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.toghyiani.alireza.MagicButtonExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +583,15 @@
 			buildConfigurations = (
 				F5E85E3024D1A03D000B15FE /* Debug */,
 				F5E85E3124D1A03D000B15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E85E4724D1A0AF000B15FE /* Build configuration list for PBXNativeTarget "MagicButtonExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E85E4824D1A0AF000B15FE /* Debug */,
+				F5E85E4924D1A0AF000B15FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
